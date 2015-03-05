@@ -3,7 +3,7 @@
 Multiplayer WebGL Game
 
 [__online demo__](http://playcanv.as/p/aP0oxhUr "tanx game")  
-![[__online demo__](http://playcanv.as/p/aP0oxhUr "tanx game")](http://files.moka.co/screens/tanx_04.jpg)  
+[![tanx game](http://files.moka.co/screens/tanx_04.jpg)](http://playcanv.as/p/aP0oxhUr)
 
 ## installation & running
 
