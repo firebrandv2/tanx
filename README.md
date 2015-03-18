@@ -1,9 +1,9 @@
 # tanx
 
-tanx multiplayer WebGL game
+Multiplayer WebGL Game
 
-[__online demo__](http://playcanv.as/p/aP0oxhUr "tanx game")
-
+[__online demo__](http://playcanv.as/p/aP0oxhUr "tanx game")  
+[![tanx game](http://files.moka.co/screens/tanx_04.jpg)](http://playcanv.as/p/aP0oxhUr)
 
 ## installation & running
 
@@ -27,14 +27,16 @@ tanx multiplayer WebGL game
 ## usage
 
 1. Fork the [tanx client](https://playcanvas.com/project/45093/overview/tanx) project.
-2. From your fork's page, click the __Code__ nav link to open `client.js` in the PlayCanvas code editor (you should be at `https://playcanvas.com/editor/code/<id-of-your-fork>/client.js`).
-3. Find the line that reads `var socket = … = new Socket` and change the `url` like so:
-
-        http://localhost:30043/socket
-
-4. Play your fork!
+2. Run the game from designer with `?server=local` argument so it connects to `http://localhost:30043/socet`.
+3. Play your fork!
 
 ## changelog
+
+##### v1.4.2 (05.03.15)
+* added usernames - let others know you
+* added us server - if you are from US, it will connect to dedicated server on west-coast for better network experience
+* changes ui, designs by @roonio
+* changes room capacity - 12 players
 
 ##### v1.3.0 (16.02.15)
 * added teams - 4 of [blue, red, green yellow] colours
