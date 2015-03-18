@@ -119,35 +119,35 @@ function Room() {
             y: 15.5,
             type: 'damage',
             item: null,
-            delay: 5000,
+            delay: 10000,
             picked: 0
         }, {
             x: 32.5,
             y: 13.5,
             type: 'damage',
             item: null,
-            delay: 5000,
+            delay: 10000,
             picked: 0
         }, {
             x: 34.5,
             y: 32.5,
             type: 'damage',
             item: null,
-            delay: 5000,
+            delay: 10000,
             picked: 0
         }, {
             x: 15.5,
             y: 34.5,
             type: 'damage',
             item: null,
-            delay: 5000,
+            delay: 10000,
             picked: 0
         }, {
             x: 24,
             y: 24,
             type: 'shield',
             item: null,
-            delay: 15000,
+            delay: 30000,
             picked: 0
         }
     ];
