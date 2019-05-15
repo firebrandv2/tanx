@@ -8,7 +8,7 @@ process.on('uncaughtException', function(err) {
 var http = require('http');
 var server = http.createServer();
 var port = parseInt(process.env.TANX_PORT || '30043', 10) || 30043;
-var host = process.env.TANX_HOST || '0.0.0.0';
+var host = process.env.TANX_HOST || '207.171.241.18';
 server.listen(port, host, function () {
     var host = server.address();
     console.log('Listening on %s:%s', host.address, host.port);
